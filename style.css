@@ -1,0 +1,100 @@
+body 
+{
+    background-color:#E8F4E7;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    width:1344px;
+    height:80px;
+    border:1px solid rgba(232, 244, 231, 1);
+    padding:16px 0px;
+}
+.buttons{
+    display:flex;
+    width: 155px;
+    height: 48px;
+    gap:12px;
+}
+.heading
+{
+    font-size: 42px;
+    line-height: 40px;
+    letter-spacing: -4%;
+    font-weight: 400;
+    width: 551px;
+    height: 29px;
+}
+.buttons
+{
+    width:453px;
+    height: 32px;
+    gap: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+}
+.main
+{
+    width: 1344px;
+    height: 1152px;
+    border: 1px solid rgba(232, 244, 231, 1);
+   
+    gap: 48px;
+}
+.title
+{
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+}
+.Image
+{
+    width: 1344px;
+    height: 672px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding:50px;
+}
+.Images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+    padding: 48px 0px;
+    gap: 48px;
+    margin-left: 50px;
+}
+img
+{
+    width: 416px;
+    height: 277px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.image-name
+{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+footer
+{
+    display: flex;
+}
+.foot{
+    font-size: 28px;
+    line-height: 32px;
+}
+.submit{
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: 136px;
+    height: 48px;
+    border: solid 1px;
+    align-items: end;
+    margin-right: 5%;;
+    margin-left: auto;
+}
