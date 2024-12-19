@@ -57,7 +57,7 @@ body
     width: 1344px;
     height: 672px;
     border: 1px solid rgba(0, 0, 0, 0);
-    padding:50px;
+    padding:80px;
 }
 .Images{
     display: grid;
@@ -79,7 +79,53 @@ img
     font-size: 20px;
     line-height: 24px;
 }
-
+.contact1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.info
+{
+    gap:16px;
+}
+#fname
+{
+    border-radius: 8px;
+    border: 1px solid rgba(28, 34, 27, 1);
+    padding: 8px 12px;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+#lname
+{
+    border-radius: 8px;
+    border: 1px solid rgba(28, 34, 27, 1);
+    padding: 8px 12px;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+#email
+{
+    border-radius: 8px;
+    border: 1px solid rgba(28, 34, 27, 1);
+    padding: 8px 12px;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+#placeholder
+{
+    border-radius: 8px;
+    border: 1px solid rgba(28, 34, 27, 1);
+    padding: 8px 12px;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.submit
+{
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: rgba(241, 57, 20, 1);
+}
 footer
 {
     display: flex;
@@ -88,7 +134,7 @@ footer
     font-size: 28px;
     line-height: 32px;
 }
-.submit{
+.follow{
     padding: 12px 24px;
     border-radius: 8px;
     width: 136px;
